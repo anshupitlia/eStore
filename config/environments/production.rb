@@ -43,8 +43,8 @@ Rails.application.configure do
 
   # Set to :debug to see everything in the log.
   config.log_level = :info
-  #config.assets.initialize_on_precompile = false
-   Spree::Core::Engine.add_assets_to_precompile_list!(self)
+  config.assets.initialize_on_precompile = false
+   #Spree::Core::Engine.add_assets_to_precompile_list!(self)
    
 
   # Prepend all log lines with the following tags.
